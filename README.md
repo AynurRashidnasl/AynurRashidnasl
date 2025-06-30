@@ -1,13 +1,23 @@
-- 🫶🏻 Hi, I’m @AynurRashidnasl
-- 👀 I’m interested in Python, SEO, the world of IT, and cybersecurity 
-- 🌱 I’m currently learning Python 
-- 💻 I’m looking to collaborate on Projects that will help me learn Python
-- 📫 How to reach me https://www.linkedin.com/in/aynur-rashidnasl-4385a92b5 
-- 😄 Pronouns: she
-- ⚡ Fun fact: If I start something, I’ll definitely finish it.
-- If I don’t, you can be sure I’m probably not around anymore
+<h2 align="center">👋 Hi there, I'm Aynur Rashidnasl</h2>
 
-<!---
-AynurRashidnasl/AynurRashidnasl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+### About Me
+
+💻 I'm a final-year student majoring in **Information Technology and Computer Networks**.
+  
+I develop desktop and mobile apps using Python, and I'm always learning new tools and technologies.  
+
+🌐 I have previous experience in "digital marketing" , particularly "SEO" and content strategy.  
+
+🔐 I'm deeply interested in "cybersecurity" and currently exploring that field.
+
+📫 You can find me on [LinkedIn](https://www.linkedin.com/in/aynur-rashidnasl-4385a92b5)  
+
+🗣 I speak Turkish (Istanbul & Azerbaijani), Persian, and English.  
+
+Fun fact: If I start something, I *will* finish it — unless I disappear into the Matrix 👀
+
+---
+
+Thanks for visiting my profile! Let's build and grow together.
