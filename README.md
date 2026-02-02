@@ -6,11 +6,14 @@
 
 
 💻 IT & Computer Networks Graduate | Passionate about technology & innovation
+
 🐍 Python Developer – Desktop apps & continuous learning
+
 🔐 Exploring Cybersecurity – always curious about the latest in security
+
 🌐 Previous experience in Digital Marketing (SEO & Content Strategy)
 
-🗣 Languages: Turkish (Istanbul & Azerbaijani), Persian, English
+🗣 Languages: Turkish , Azerbaijani , Persian, English
 
 🎯 Fun fact: I always finish what I start — unless I get lost in the Matrix 👀
 ---
