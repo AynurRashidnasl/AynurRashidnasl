@@ -4,20 +4,15 @@
 
 ### About Me
 
-💻 I'm a final-year student majoring in **Information Technology and Computer Networks**.
-  
-I develop desktop and mobile apps using Python, and I'm always learning new tools and technologies.  
 
-🌐 I have previous experience in "digital marketing" , particularly "SEO" and content strategy.  
+💻 IT & Computer Networks Graduate | Passionate about technology & innovation
+🐍 Python Developer – Desktop apps & continuous learning
+🔐 Exploring Cybersecurity – always curious about the latest in security
+🌐 Previous experience in Digital Marketing (SEO & Content Strategy)
 
-🔐 I'm deeply interested in "cybersecurity" and currently exploring that field.
+🗣 Languages: Turkish (Istanbul & Azerbaijani), Persian, English
 
-📫 You can find me on [LinkedIn](https://www.linkedin.com/in/aynur-rashidnasl-4385a92b5)  
-
-🗣 I speak Turkish (Istanbul & Azerbaijani), Persian, and English.  
-
-Fun fact: If I start something, I *will* finish it — unless I disappear into the Matrix 👀
-
+🎯 Fun fact: I always finish what I start — unless I get lost in the Matrix 👀
 ---
 
 Thanks for visiting my profile! Let's build and grow together.
