@@ -2,25 +2,37 @@
   <defs>
     <!-- گرادیانت پس‌زمینه متحرک -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#161b22;#0d1117" dur="8s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#99B898">
+        <animate attributeName="stop-color" values="#99B898;#FECEAB;#99B898" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#161b22">
-        <animate attributeName="stop-color" values="#161b22;#0d1117;#161b22" dur="8s" repeatCount="indefinite"/>
+      <stop offset="25%" stop-color="#FECEAB">
+        <animate attributeName="stop-color" values="#FECEAB;#FF847C;#FECEAB" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF847C">
+        <animate attributeName="stop-color" values="#FF847C;#E84A5F;#FF847C" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#E84A5F">
+        <animate attributeName="stop-color" values="#E84A5F;#2A363B;#E84A5F" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2A363B">
+        <animate attributeName="stop-color" values="#2A363B;#99B898;#2A363B" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- گرادیانت متن -->
+    <!-- گرادیانت متن تیره‌تر -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="100%" stop-color="#ff79c6"/>
+      <stop offset="0%" stop-color="#4B3B60"/>
+      <stop offset="25%" stop-color="#3A2A4F"/>
+      <stop offset="50%" stop-color="#2F1E44"/>
+      <stop offset="75%" stop-color="#241836"/>
+      <stop offset="100%" stop-color="#1A0F28"/>
     </linearGradient>
   </defs>
 
   <!-- پس‌زمینه -->
   <rect width="1200" height="140" rx="18" fill="url(#bgGradient)"/>
 
-  <!-- متن با گرادیانت و تایپ سریع -->
+  <!-- متن با گرادیانت بسیار تیره و تایپ سریع -->
   <text x="50" y="85" font-family="JetBrains Mono, Courier New, monospace" font-size="36" fill="url(#textGrad)">
     <tspan>
       Systems speak when they break... 🛡️
@@ -29,7 +41,7 @@
   </text>
 
   <!-- کرسر چشمک‌زن -->
-  <rect x="50" y="45" width="3" height="40" fill="#58a6ff">
+  <rect x="50" y="45" width="3" height="40" fill="#4B3B60">
     <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite"/>
   </rect>
 </svg>
