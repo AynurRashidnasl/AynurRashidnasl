@@ -42,9 +42,9 @@
       opacity: 1;
     }
     @keyframes typing {
-      0%, 10% { width: 0 }       /* شروع تایپ */
-      45%, 55% { width: 100% }   /* متن کامل */
-      90%, 100% { width: 0 }     /* پاک شدن متن */
+      0%, 10% { width: 0 }       
+      45%, 55% { width: 100% }   
+      90%, 100% { width: 0 }     
     }
     @keyframes blink {
       50% { border-color: transparent }
