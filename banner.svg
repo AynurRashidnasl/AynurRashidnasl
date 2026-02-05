@@ -34,7 +34,7 @@
       white-space: nowrap;
       overflow: hidden;
       border-right: 3px solid #FFF;
-      animation: typing 5s steps(50, end) 1 forwards, blink 0.8s step-end infinite;
+      animation: typing 10s steps(50, end) infinite, blink 0.8s step-end infinite;
     }
     .sub {
       font-size: 18px;
@@ -42,18 +42,19 @@
       opacity: 1;
     }
     @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
+      0%, 10% { width: 0 }       /* شروع تایپ */
+      45%, 55% { width: 100% }   /* متن کامل */
+      90%, 100% { width: 0 }     /* پاک شدن متن */
     }
     @keyframes blink {
       50% { border-color: transparent }
     }
   </style>
 
-  <!-- پس‌زمینه -->
+  <!-- پس‌زمینه متحرک -->
   <rect class="bg" width="100%" height="140" rx="18"/>
 
-  <!-- متن با تایپ روان -->
+  <!-- متن با تایپ و پاک شدن روان -->
   <foreignObject x="40" y="35" width="1100" height="100">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div class="text">
