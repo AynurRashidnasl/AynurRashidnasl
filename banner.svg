@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#ff79c6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- پس‌زمینه -->
+  <rect width="1200" height="140" rx="18" fill="url(#bg)"/>
+
+  <!-- متن تایپ سریع -->
+  <text x="50" y="85" font-family="Courier New, monospace" font-size="36" fill="url(#textGrad)">
+    <tspan>
+      Systems speak more when they break than when they work. 🛡️
+      <animate attributeName="textLength" from="0" to="800" dur="2s" repeatCount="indefinite"/>
+    </tspan>
+  </text>
+
+  <!-- کرسر چشمک‌زن -->
+  <rect x="50" y="45" width="3" height="40" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0" dur="0.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
