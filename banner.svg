@@ -19,7 +19,7 @@
       </stop>
     </linearGradient>
 
-    <!-- گرادیانت متن تیره‌تر -->
+    <!-- گرادیانت متن تیره -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#4B3B60"/>
       <stop offset="25%" stop-color="#3A2A4F"/>
@@ -32,11 +32,47 @@
   <!-- پس‌زمینه -->
   <rect width="1200" height="140" rx="18" fill="url(#bgGradient)"/>
 
-  <!-- متن با گرادیانت بسیار تیره و تایپ سریع -->
+  <!-- متن تایپ شونده حرف به حرف -->
   <text x="50" y="85" font-family="JetBrains Mono, Courier New, monospace" font-size="36" fill="url(#textGrad)">
-    <tspan>
-      Systems speak when they break... 🛡️
-      <animate attributeName="textLength" from="0" to="800" dur="2s" repeatCount="indefinite"/>
+    <tspan>S
+      <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>y
+      <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>s
+      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>t
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>e
+      <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>m
+      <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>s
+      <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan> 
+      <!-- فاصله -->
+      <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.1s" fill="freeze"/>
+    </tspan>
+    <tspan>speak
+      <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.5s" fill="freeze"/>
+    </tspan>
+    <tspan> when
+      <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze"/>
+    </tspan>
+    <tspan> they
+      <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.5s" fill="freeze"/>
+    </tspan>
+    <tspan> break...
+      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze"/>
+    </tspan>
+    <tspan> 🛡️
+      <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.2s" fill="freeze"/>
     </tspan>
   </text>
 
