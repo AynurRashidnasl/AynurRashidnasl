@@ -1,10 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+    <!-- گرادیانت پس‌زمینه متحرک -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#161b22;#0d1117" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#161b22">
+        <animate attributeName="stop-color" values="#161b22;#0d1117;#161b22" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
 
+    <!-- گرادیانت متن -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
       <stop offset="100%" stop-color="#ff79c6"/>
@@ -12,10 +18,10 @@
   </defs>
 
   <!-- پس‌زمینه -->
-  <rect width="1200" height="140" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="140" rx="18" fill="url(#bgGradient)"/>
 
-  <!-- متن تایپ سریع -->
-  <text x="50" y="85" font-family="Courier New, monospace" font-size="36" fill="url(#textGrad)">
+  <!-- متن با گرادیانت و تایپ سریع -->
+  <text x="50" y="85" font-family="JetBrains Mono, Courier New, monospace" font-size="36" fill="url(#textGrad)">
     <tspan>
       Systems speak when they break... 🛡️
       <animate attributeName="textLength" from="0" to="800" dur="2s" repeatCount="indefinite"/>
