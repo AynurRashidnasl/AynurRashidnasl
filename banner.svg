@@ -1,1 +1,67 @@
+<svg width="100%" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+   
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8A7A7">
+        <animate attributeName="stop-color" values="#A8A7A7;#CC527A;#E8175D;#474747;#363636;#A8A7A7" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#CC527A">
+        <animate attributeName="stop-color" values="#CC527A;#E8175D;#474747;#363636;#A8A7A7;#CC527A" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#E8175D">
+        <animate attributeName="stop-color" values="#E8175D;#474747;#363636;#A8A7A7;#CC527A;#E8175D" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#474747">
+        <animate attributeName="stop-color" values="#474747;#363636;#A8A7A7;#CC527A;#E8175D;#474747" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#363636">
+        <animate attributeName="stop-color" values="#363636;#A8A7A7;#CC527A;#E8175D;#474747;#363636" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
 
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/ingo');
+
+    .bg {
+      fill: url(#bgGradient);
+    }
+    .text {
+      font-family: 'Ingo', sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      color: #FFF;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #FFF;
+      animation: typing 10s steps(50, end) infinite, blink 0.8s step-end infinite;
+    }
+    .sub {
+      font-size: 18px;
+      color: #AAA;
+      opacity: 1;
+    }
+    @keyframes typing {
+      0%, 10% { width: 0 }       
+      45%, 55% { width: 100% }   
+      90%, 100% { width: 0 }     
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+
+  
+  <rect class="bg" width="100%" height="140" rx="18"/>
+
+  <foreignObject x="40" y="35" width="1100" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="text">
+        Systems speak when they break... 🛡️
+      </div>
+      <div class="sub">
+        Turning curiosity into code • breaking things to understand them
+      </div>
+    </div>
+  </foreignObject>
+</svg>
