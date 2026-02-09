@@ -1,5 +1,5 @@
 <h2 align="center">👋 Hi there, I'm Aynur </h2>
-
+<img src="./banner.svg" width="100%" />
 
 
 ---
