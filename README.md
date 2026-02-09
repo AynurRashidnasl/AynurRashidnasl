@@ -1,5 +1,4 @@
 <h2 align="center">👋 Hi there, I'm Aynur </h2>
-![Banner](https://raw.githubusercontent.com/AynurRashidnasl/AynurRashidnasl/main/banner.svg)
 
 
 
